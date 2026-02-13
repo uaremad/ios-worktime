@@ -1,0 +1,1 @@
+Hello there! Here comes the TestFlight version of our fresh new Write-A-Letter App! This is specially made for the QA review, so we can see what you think about it. Feel free to dive in and give us some feedback, so we can get it ready for the release version! Give it a try and let us know what you think!

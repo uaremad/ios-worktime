@@ -1,0 +1,14 @@
+/* Localized versions of Info.plist keys */
+
+"CFBundleDisplayName" = "Ciśnienie Krwi";
+"CFBundleName" = "Ciśnienie Krwi";
+
+/* Usage Descriptions */
+"NSPhotoLibraryUsageDescription" = "Aplikacja może zapisywać eksportowane wykresy jako obrazy w bibliotece zdjęć.";
+"NSPhotoLibraryAddUsageDescription" = "Aplikacja zapisuje eksportowane obrazy wykresów w bibliotece zdjęć.";
+"NSCameraUsageDescription" = "Niektóre funkcje aplikacji wymagają dostępu do aparatu urządzenia w celu skanowania dokumentów.";
+"NSContactsUsageDescription" = "Aplikacja może zażądać dostępu do kontaktów w celu optymalizacji komunikacji i uproszczenia wyboru odbiorców.";
+"NSHealthShareUsageDescription" = "Aplikacja używa HealthKit do odczytu wartości ciśnienia krwi i tętna.";
+"NSHealthUpdateUsageDescription" = "Aplikacja używa HealthKit do zapisywania wartości ciśnienia krwi i tętna.";
+
+"NSLocalNetworkUsageDescription" = "Aplikacja używa sieci lokalnej do bezpośredniej synchronizacji danych między iPhonem a komputerem Mac.";

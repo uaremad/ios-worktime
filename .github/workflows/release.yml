@@ -1,0 +1,51 @@
+name: Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      release_branch:
+        description: 'Release branch (i.e. release/1.2)'
+        required: true
+
+jobs:
+  lint:
+    name: Linting, Building and Testing for Release
+    runs-on: macos-14
+    timeout-minutes: 30
+    
+    env:
+      # Project: ManaSuite
+      # Deployment: iOS 26.0, macOS 26.0
+      # Swift: Swift 6 Strict Mode
+      # Platforms: iOS, iPadOS, macOS (Multiplatform)
+      # Localizations: de (development), en, ja
+      DEVELOPER_DIR: /Applications/Xcode_16.1.app/Contents/Developer
+    
+    steps:
+      - name: Setup Mise (Tool Version Manager)
+        run: |
+          curl https://mise.jdx.dev/install.sh | sh
+          echo "$HOME/.local/share/mise/bin" >> $GITHUB_PATH
+          echo "$HOME/.local/share/mise/shims" >> $GITHUB_PATH
+      
+      - name: Verify Xcode Installation
+        run: |
+          xcodebuild -version
+          ls -nt /Applications/ | grep "Xcode*"
+      
+      - name: Checkout Release Branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.inputs.release_branch }}
+      
+      - name: Install Dependencies (Homebrew)
+        run: make ci-setup
+      
+      - name: Ensure code readability and consistency (Linting for Developers)
+        run: make lint
+      
+      - name: Ensure app can be built and run on iOS devices (Building for Users)
+        run: make ci-tuist
+      
+      - name: Ensure requested features are implemented correctly (Testing for Stakeholders)
+        run: make test-ios

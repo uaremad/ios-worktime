@@ -1,0 +1,90 @@
+# SwiftLint configuration file
+# Version: 1.0
+disabled_rules:
+  - opening_brace # not compatible to SwiftFormat rule "wrapMultilineStatementBraces"
+opt_in_rules:
+  - closure_spacing
+  - contains_over_filter_count
+  - contains_over_filter_is_empty
+  - contains_over_first_not_nil
+  - fallthrough
+  - fatal_error_message
+  - file_name
+  - first_where
+  - force_cast
+  - force_try
+  - force_unwrapping
+  - implicitly_unwrapped_optional
+  - multiline_arguments
+  - operator_usage_whitespace
+  - overridden_super_call
+excluded:
+  - Pods
+  - .tuist-bin
+  - .build
+  - .derivedData
+  - builds
+  - Derived
+  - DerivedData
+  - Docs
+  - Scripts
+  - Tuist
+  - fastlane
+  - ci_scripts
+  - Locations
+  - Templates
+  - CodeGen/.build
+  - CodeGen/.derivedData
+  - CodeGen/DerivedData
+  - Demo/.derivedData
+  - Demo/DerivedData
+  - App/.derivedData
+  - App/build
+  - App/Derived
+  - Host/.derivedData
+  - Host/Derived
+  - 'Modules/*/.derivedData'
+  - 'Modules/*/Derived'
+identifier_name:
+  allowed_symbols: _
+  excluded:
+    - id
+    - in
+    - is
+    - ok
+    - vc
+    - on
+    - to
+    - no
+    - x
+    - y
+    - z
+    - up
+    - p1
+    - lf
+    - cr
+file_length:
+  warning: 550
+  ignore_comment_only_lines: true
+force_cast: error
+force_try: error
+function_body_length: 80
+function_parameter_count: 4
+file_name:
+  excluded:
+    - Fonts.swift
+    - Project.swift
+    - Assets.swift
+    - Dangerfile.swift
+    - Workspace.swift
+line_length:
+  warning: 150
+  error: 300
+  ignores_comments: true
+nesting:
+  type_level:
+    warning: 2
+    error: 4
+type_body_length: 300
+type_name:
+  allowed_symbols: _

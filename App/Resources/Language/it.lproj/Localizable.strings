@@ -1,0 +1,51 @@
+// Temporary generated files for enum Generation
+// Generated using SwiftGen — https://github.com/SwiftGen/SwiftGen
+// Language: it
+
+
+
+
+  "cost_centre_scope" = "Ambito Centro Costi";
+  "general_already_taken" = "Già preso";
+  "general_comment" = "Commento";
+  "general_developer_onboarding" = "Onboarding";
+  "general_none" = "Nessuno";
+  "general_scope" = "Ambito";
+  "management_cost_centre_edit_footer" = "Crea qui un nuovo centro di costo inserendo un nome. Il riferimento esterno può essere un codice contabile e il commento è per le tue note personali.";
+  "management_cost_centre_section_active" = "Centri di costo attivi";
+  "management_cost_centre_section_inactive" = "Centri di costo inattivi";
+  "management_cost_centre_section_inactive_footer" = "I centri di costo inattivi non possono essere selezionati nell’app. Restano disponibili perché sono già usati in dati e report esistenti.";
+  "management_onboarding_cost_centre_hint" = "Dai una rapida occhiata ai centri di costo disponibili. Se va tutto bene, continua. Potrai modificarli anche in seguito.";
+  "management_terminology_accessibility_add_term" = "Add new term";
+  "management_terminology_add_button" = "Add";
+  "management_terminology_alert_info_title" = "Notice";
+  "management_terminology_error_both_required" = "Singular and plural must be filled before leaving this screen.";
+  "management_terminology_error_enter_name" = "Please enter a name.";
+  "management_terminology_error_name_required" = "The counterparty name must not be empty.";
+  "management_terminology_error_save_failed" = "Could not save setting.";
+  "management_terminology_field_current_name" = "Current Name";
+  "management_terminology_field_new_name" = "New Name";
+  "management_terminology_field_plural_name" = "Plural";
+  "management_terminology_field_plural_title" = "Plurale";
+  "management_terminology_field_singular_title" = "Singular";
+  "management_terminology_footer_counterparty" = "Choose how counterparties are named across the app.";
+  "management_terminology_option_client_plural" = "Clients";
+  "management_terminology_option_client_singular" = "Client";
+  "management_terminology_option_employer_plural" = "Employers";
+  "management_terminology_option_employer_singular" = "Employer";
+  "management_terminology_option_free_text_plural" = "Free Text";
+  "management_terminology_option_free_text_singular" = "Free Text";
+  "management_terminology_option_mandate_plural" = "Mandates";
+  "management_terminology_option_mandate_singular" = "Mandate";
+  "management_terminology_option_principal_plural" = "Principals";
+  "management_terminology_option_principal_singular" = "Principal";
+  "management_terminology_picker_term" = "Term";
+  "management_terminology_saved" = "Terminology saved.";
+  "management_terminology_section_counterparty" = "Counterparty";
+  "management_terminology_sheet_new_name_title" = "Add New Name";
+  "management_terminology_title" = "Terminology";
+  "management_terminology_unsaved_discard" = "Discard";
+  "management_terminology_unsaved_message" = "You have unsaved free-text changes. Do you want to save, discard, or cancel?";
+  "management_terminology_unsaved_save_and_leave" = "Save and Leave";
+  "management_terminology_unsaved_title" = "Unsaved Changes";
+

@@ -1,0 +1,183 @@
+// Generated using SwiftGen — https://github.com/SwiftGen/SwiftGen
+// swiftlint:disable type_body_length identifier_name
+// swiftformat:disable wrapPropertyBodies
+
+{% if tables.count > 0 %}
+{% set accessModifier %}{% if param.publicAccess %}public {% endif %}{% endset %}
+import Foundation
+
+// MARK: - Strings
+
+{% macro parametersBlock types %}{% filter removeNewlines:"leading" %}
+    {% for type in types %}
+        {% if type == "String" %}
+        _ pronounce{{forloop.counter}}: Any
+        {% else %}
+        _ pronounce{{forloop.counter}}: {{type}}
+        {% endif %}
+        {{ ", " if not forloop.last }}
+    {% endfor %}
+{% endfilter %}{% endmacro %}
+{% macro parametersBlockMultiline types %}
+    {% for type in types %}
+        {% if type == "String" %}
+        _ pronounce{{forloop.counter}}: Any{{ "," if not forloop.last }}
+        {% else %}
+        _ pronounce{{forloop.counter}}: {{type}}{{ "," if not forloop.last }}
+        {% endif %}
+    {% endfor %}
+{% endmacro %}
+{% macro argumentsBlock types %}{% filter removeNewlines:"leading" %}
+    {% for type in types %}
+        {% if type == "String" %}
+        String(describing: pronounce{{forloop.counter}})
+        {% elif type == "UnsafeRawPointer" %}
+        Int(bitPattern: pronounce{{forloop.counter}})
+        {% else %}
+        pronounce{{forloop.counter}}
+        {% endif %}
+        {{ ", " if not forloop.last }}
+    {% endfor %}
+{% endfilter %}{% endmacro %}
+{% macro argumentsBlockMultiline types %}
+    {% for type in types %}
+        {% if type == "String" %}
+        String(describing: pronounce{{forloop.counter}}){{ "," if not forloop.last }}
+        {% elif type == "UnsafeRawPointer" %}
+        Int(bitPattern: pronounce{{forloop.counter}}){{ "," if not forloop.last }}
+        {% else %}
+        pronounce{{forloop.counter}}{{ "," if not forloop.last }}
+        {% endif %}
+    {% endfor %}
+{% endmacro %}
+{% macro recursiveBlock table item %}
+    {% for string in item.strings %}
+    {% if not param.noComments %}
+    /// {{string.translation}}
+    {% endif %}
+    {% if string.types %}
+    {{accessModifier}}public static func {{string.name|swiftIdentifier:"pretty"|lowerFirstWord|escapeReservedKeywords}}(
+        {% filter indent:4 %}{% call parametersBlockMultiline string.types %}{% endfilter %}
+    ) -> String {
+        {{enumName}}.tr(
+            "{{string.key}}",
+            {% filter indent:8 %}{% call argumentsBlockMultiline string.types %}{% endfilter %}
+        )
+    }
+    {% elif param.lookupFunction %}
+    {# custom localization function is mostly used for in-app lang selection, so we want the loc to be recomputed at each call for those (hence the computed var) #}
+    {{accessModifier}}public static var {{string.name|swiftIdentifier:"pretty"|lowerFirstWord|escapeReservedKeywords}}: String { return {{enumName}}.tr("{{string.key}}") }
+    {% else %}
+    {{accessModifier}}public static var {{string.name|swiftIdentifier:"pretty"|lowerFirstWord|escapeReservedKeywords}}: String { {{enumName}}.tr("{{string.key}}") }
+    {% endif %}
+    {% endfor %}
+    {% for child in item.children %}
+
+    {{accessModifier}}public enum {{child.name|swiftIdentifier:"pretty"|escapeReservedKeywords}} {
+        {% filter indent:4 %}{% call recursiveBlock table child %}{% endfilter %}
+    }
+    {% endfor %}
+{% endmacro %}
+{% set enumName %}{{param.enumName|default:"L10n"}}{% endset %}
+{{accessModifier}}public enum {{enumName}} {
+    {% if tables.count > 1 or param.forceFileNameEnum %}
+    {% for table in tables %}
+    {{accessModifier}}public enum {{table.name|swiftIdentifier:"pretty"|escapeReservedKeywords}} {
+        {% filter indent:4 %}{% call recursiveBlock table.name table.levels %}{% endfilter %}
+    }
+    {% endfor %}
+    {% else %}
+    {% call recursiveBlock tables.first.name tables.first.levels %}
+    {% endif %}
+}
+
+// MARK: - Implementation Details
+
+extension {{enumName}} {
+    private static func tr(_ key: String, _ args: CVarArg...) -> String {
+        // Default Setup
+        //
+        // This project supports an in-app language override (macOS Preferences).
+        // We resolve translations from a language-specific .lproj bundle when an override is active,
+        // instead of relying on `AppleLanguages` which may require an app restart on some platforms.
+        {% if param.lookupFunction %}
+        let format = {{ param.lookupFunction }}(key, table)
+        {% else %}
+        let bundle = resolvedLocalizationBundle()
+        let format = bundle.localizedString(forKey: key, value: nil, table: nil)
+        {% endif %}
+        return String(format: format, locale: resolvedFormattingLocale(), arguments: args)
+    }
+
+    private static func resolvedLocalizationBundle() -> Bundle {
+        let overrideCode = UserDefaults.standard.string(forKey: "appLanguageOverrideCode")
+        guard let overrideCode, overrideCode != "system" else {
+            // Resolve the system language explicitly from the global domain, so the UI can switch
+            // back reliably even if the app had previously overridden its own `AppleLanguages`.
+            guard let systemCode = resolvedSystemLanguageCode(),
+                  let path = {{param.bundle|default:"BundleToken.bundle"}}.path(forResource: systemCode, ofType: "lproj"),
+                  let languageBundle = Bundle(path: path)
+            else {
+                return {{param.bundle|default:"BundleToken.bundle"}}
+            }
+            return languageBundle
+        }
+        guard let path = {{param.bundle|default:"BundleToken.bundle"}}.path(forResource: overrideCode, ofType: "lproj"),
+              let languageBundle = Bundle(path: path) else {
+            return {{param.bundle|default:"BundleToken.bundle"}}
+        }
+        return languageBundle
+    }
+
+    private static func resolvedFormattingLocale() -> Locale {
+        let overrideCode = UserDefaults.standard.string(forKey: "appLanguageOverrideCode")
+        guard let overrideCode, overrideCode != "system" else {
+            if let systemCode = resolvedSystemLanguageCode() {
+                return Locale(identifier: systemCode)
+            }
+            return Locale.current
+        }
+        return Locale(identifier: overrideCode)
+    }
+
+    private static func resolvedSystemLanguageCode() -> String? {
+        if let languages = UserDefaults.standard.persistentDomain(forName: UserDefaults.globalDomain)?["AppleLanguages"] as? [String],
+           let first = languages.first,
+           let code = normalizeLanguageCode(from: first) {
+            return code
+        }
+
+        if let firstPreferred = Locale.preferredLanguages.first,
+           let code = normalizeLanguageCode(from: firstPreferred) {
+            return code
+        }
+
+        return nil
+    }
+
+    private static func normalizeLanguageCode(from identifier: String) -> String? {
+        let parts = identifier.split(whereSeparator: { $0 == "-" || $0 == "_" })
+        guard let primary = parts.first, primary.isEmpty == false else {
+            return nil
+        }
+        return String(primary)
+    }
+}
+
+{% if not param.bundle and not param.lookupFunction %}
+private final class BundleToken {
+    static let bundle: Bundle = {
+        #if SWIFT_PACKAGE
+        return Bundle.module
+        #else
+        return Bundle(for: BundleToken.self)
+        #endif
+    }()
+}
+{% endif %}
+{% else %}
+// No string found
+{% endif %}
+
+// swiftlint:enable type_body_length identifier_name
+// swiftformat:enable wrapPropertyBodies

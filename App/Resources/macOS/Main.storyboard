@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="24412" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="24412"/>
+    </dependencies>
+    <scenes>
+        <!--Application-->
+        <scene sceneID="JPo-4y-FX3">
+            <objects>
+                <application id="hnw-xV-0zn" sceneMemberID="viewController">
+                    <menu key="mainMenu" title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
+                        <items>
+                            <menuItem title="Blutdruck" state="on" identifier="app-menu" id="1Xt-HY-uBw" userLabel="Blutdruck">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <menu key="submenu" title="Blutdruck" systemMenu="apple" id="uQy-DD-JDr">
+                                    <items>
+                                        <menuItem title="About" identifier="about-menu" id="5kV-Vb-QxS" userLabel="About">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="orderFrontStandardAboutPanel:" target="Ady-hI-5gd" id="Exp-CZ-Vem"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem isSeparatorItem="YES" id="VOq-y0-SEH"/>
+                                        <menuItem title="Preferences…" keyEquivalent="," identifier="preferences-menu" id="BOF-NM-1cW">
+                                            <connections>
+                                                <action selector="openPrefsWindow:" target="Voe-Tx-rLC" id="Mmz-2y-Qcj"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem isSeparatorItem="YES" id="wFC-TO-SCJ"/>
+                                        <menuItem title="Hide" keyEquivalent="h" identifier="hide-app-menu" id="Olw-nP-bQN">
+                                            <connections>
+                                                <action selector="hide:" target="Ady-hI-5gd" id="PnN-Uc-m68"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Hide Others" keyEquivalent="h" identifier="hide-others-menu" id="Vdr-fp-XzO">
+                                            <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
+                                            <connections>
+                                                <action selector="hideOtherApplications:" target="Ady-hI-5gd" id="VT4-aY-XCT"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Show All" identifier="show-all-menu" id="Kd2-mp-pUS">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="unhideAllApplications:" target="Ady-hI-5gd" id="Dhg-Le-xox"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem isSeparatorItem="YES" id="kCx-OE-vgT"/>
+                                        <menuItem title="Quit" keyEquivalent="q" identifier="quit-menu" id="4sb-4s-VLi">
+                                            <connections>
+                                                <action selector="terminate:" target="Ady-hI-5gd" id="Te7-pn-YzF"/>
+                                            </connections>
+                                        </menuItem>
+                                    </items>
+                                </menu>
+                            </menuItem>
+                            <menuItem title="Edit" identifier="edit-menu" id="EBr-2s-3La">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <menu key="submenu" title="Edit" systemMenu="edit" id="5R6-J4-9YV">
+                                    <items>
+                                        <menuItem title="Undo" keyEquivalent="z" id="x1b-0B-ae3">
+                                            <connections>
+                                                <action selector="undo:" target="Ady-hI-5gd" id="4Fq-zD-ye7"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Redo" keyEquivalent="Z" id="v9H-1y-5rM">
+                                            <modifierMask key="keyEquivalentModifierMask" shift="YES" command="YES"/>
+                                            <connections>
+                                                <action selector="redo:" target="Ady-hI-5gd" id="p7P-WQ-7cJ"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem isSeparatorItem="YES" id="rG4-H2-v9u"/>
+                                        <menuItem title="Cut" keyEquivalent="x" id="I6m-UG-3X2">
+                                            <connections>
+                                                <action selector="cut:" target="Ady-hI-5gd" id="qJf-9U-M6C"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Copy" keyEquivalent="c" id="3D6-1R-2xJ">
+                                            <connections>
+                                                <action selector="copy:" target="Ady-hI-5gd" id="n1g-5p-8pB"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Paste" keyEquivalent="v" id="G2K-5m-X87">
+                                            <connections>
+                                                <action selector="paste:" target="Ady-hI-5gd" id="ngf-nh-s1c"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Select All" keyEquivalent="a" id="Yc6-Sq-6tU">
+                                            <connections>
+                                                <action selector="selectAll:" target="Ady-hI-5gd" id="hXv-pQ-3Q5"/>
+                                            </connections>
+                                        </menuItem>
+                                    </items>
+                                </menu>
+                            </menuItem>
+                            <menuItem title="Mainmenu" identifier="mainmenu-menu" id="5QF-Oa-p0T">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <menu key="submenu" title="Mainmenu" id="W48-6f-4Dl">
+                                    <items>
+                                        <menuItem title="Search" keyEquivalent="1" identifier="search-menu" id="pa3-QI-u2k">
+                                            <connections>
+                                                <action selector="handleMenuItem:" target="Voe-Tx-rLC" id="VhC-0o-SLM"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem isSeparatorItem="YES" id="uyl-h8-XO2"/>
+                                        <menuItem title="Collection" keyEquivalent="2" identifier="collection-menu" id="dRJ-4n-Yzg">
+                                            <connections>
+                                                <action selector="handleMenuItem:" target="Voe-Tx-rLC" id="FR8-N2-fpz"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Decks" keyEquivalent="3" identifier="deck-menu" id="6dh-zS-Vam">
+                                            <connections>
+                                                <action selector="handleMenuItem:" target="Voe-Tx-rLC" id="NuT-cd-pzH"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Bookmarks" keyEquivalent="4" identifier="bookmark-menu" id="gVA-U4-sdL">
+                                            <connections>
+                                                <action selector="handleMenuItem:" target="Voe-Tx-rLC" id="F2Q-jz-pRc"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Tags" keyEquivalent="5" identifier="tags-menu" id="m9s-z3-1xQ">
+                                            <connections>
+                                                <action selector="handleMenuItem:" target="Voe-Tx-rLC" id="n1M-4c-8aP"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem isSeparatorItem="YES" id="WRV-NI-Exz"/>
+                                        <menuItem title="Releases" keyEquivalent="6" identifier="releases-menu" id="uRl-iY-unG">
+                                            <connections>
+                                                <action selector="handleMenuItem:" target="Voe-Tx-rLC" id="8wM-Ci-5Oz"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Add" keyEquivalent="7" identifier="add-measurement-menu" id="x3v-GG-iWU">
+                                            <connections>
+                                                <action selector="handleMenuItem:" target="Voe-Tx-rLC" id="bdD-3M-fua"/>
+                                            </connections>
+                                        </menuItem>
+                                    </items>
+                                </menu>
+                            </menuItem>
+                        </items>
+                    </menu>
+                    <connections>
+                        <outlet property="delegate" destination="Voe-Tx-rLC" id="PrD-fu-P6m"/>
+                    </connections>
+                </application>
+                <customObject id="Voe-Tx-rLC" customClass="MacDelegate" customModuleProvider="target"/>
+                <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
+                <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-102" y="-223"/>
+        </scene>
+        <!--Window Controller-->
+        <scene sceneID="xzL-ea-2b4">
+            <objects>
+                <windowController storyboardIdentifier="SamplesWindowController" showSeguePresentationStyle="single" id="Dot-qF-wb6" sceneMemberID="viewController">
+                    <window key="window" title="Blutdruck" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" frameAutosaveName="" animationBehavior="default" tabbingMode="disallowed" id="OuG-jL-NcE">
+                        <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+                        <rect key="contentRect" x="320" y="343" width="470" height="450"/>
+                        <rect key="screenRect" x="0.0" y="0.0" width="2048" height="1129"/>
+                        <value key="minSize" type="size" width="470" height="450"/>
+                        <value key="maxSize" type="size" width="470" height="450"/>
+                        <connections>
+                            <outlet property="delegate" destination="Dot-qF-wb6" id="W7l-PY-LWu"/>
+                        </connections>
+                    </window>
+                    <connections>
+                        <segue destination="ePI-eT-49l" kind="relationship" relationship="window.shadowedContentViewController" id="BrR-Fs-0jQ"/>
+                    </connections>
+                </windowController>
+                <customObject id="vfF-mG-5ug" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-90" y="249"/>
+        </scene>
+        <!--Samples Hosting Controller-->
+        <scene sceneID="TS6-bd-s75">
+            <objects>
+                <customObject id="RRC-et-gHo" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+                <hostingController id="ePI-eT-49l" customClass="SamplesHostingController" customModuleProvider="target" sceneMemberID="viewController"/>
+            </objects>
+            <point key="canvasLocation" x="-90" y="805"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,14 @@
+/* Localized versions of Info.plist keys */
+
+"CFBundleDisplayName" = "血圧";
+"CFBundleName" = "血圧";
+
+/* Usage Descriptions */
+"NSPhotoLibraryUsageDescription" = "アプリはエクスポートされたグラフを画像としてフォトライブラリに保存できます。";
+"NSPhotoLibraryAddUsageDescription" = "アプリはエクスポートされたグラフ画像をフォトライブラリに保存します。";
+"NSCameraUsageDescription" = "アプリの特定の機能では、ドキュメントスキャン機能のためにデバイスのカメラへのアクセスが必要です。";
+"NSContactsUsageDescription" = "アプリは、コミュニケーションを最適化し、受信者の選択を簡素化するために、連絡先へのアクセスをリクエストする場合があります。";
+"NSHealthShareUsageDescription" = "アプリはHealthKitを使用して血圧と脈拍の値を読み取ります。";
+"NSHealthUpdateUsageDescription" = "アプリはHealthKitを使用して血圧と脈拍の値を保存します。";
+
+"NSLocalNetworkUsageDescription" = "このアプリは、iPhoneとMacの間でデータを直接同期するためにローカルネットワークを使用します。";

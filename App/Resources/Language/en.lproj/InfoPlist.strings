@@ -1,0 +1,14 @@
+/* Localized versions of Info.plist keys */
+
+"CFBundleDisplayName" = "Worktime";
+"CFBundleName" = "Worktime";
+
+/* Usage Descriptions */
+"NSPhotoLibraryUsageDescription" = "The app can save exported charts as images to your photo library.";
+"NSPhotoLibraryAddUsageDescription" = "The app saves exported chart images to your photo library.";
+"NSCameraUsageDescription" = "Certain features of the app require access to your device's camera for document scanning functionality.";
+"NSContactsUsageDescription" = "The app may request access to your contacts to optimize communication and simplify recipient selection.";
+"NSHealthShareUsageDescription" = "The app uses HealthKit to read blood pressure and pulse values.";
+"NSHealthUpdateUsageDescription" = "The app uses HealthKit to save blood pressure and pulse values.";
+
+"NSLocalNetworkUsageDescription" = "The app uses the local network to sync data directly between your iPhone and your Mac.";

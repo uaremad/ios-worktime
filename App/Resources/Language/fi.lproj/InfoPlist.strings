@@ -1,0 +1,14 @@
+/* Localized versions of Info.plist keys */
+
+"CFBundleDisplayName" = "Verenpaine";
+"CFBundleName" = "Verenpaine";
+
+/* Usage Descriptions */
+"NSPhotoLibraryUsageDescription" = "Sovellus voi tallentaa viedyt kaaviot kuvina valokuvakirjastoosi.";
+"NSPhotoLibraryAddUsageDescription" = "Sovellus tallentaa viedyt kaaviot valokuvakirjastoosi.";
+"NSCameraUsageDescription" = "Tietyt sovelluksen toiminnot vaativat pääsyn laitteesi kameraan asiakirjojen skannausta varten.";
+"NSContactsUsageDescription" = "Sovellus voi pyytää pääsyä yhteystietoihisi viestinnän optimoimiseksi ja vastaanottajien valinnan yksinkertaistamiseksi.";
+"NSHealthShareUsageDescription" = "Sovellus käyttää HealthKittiä verenpaine- ja sykearvojen lukemiseen.";
+"NSHealthUpdateUsageDescription" = "Sovellus käyttää HealthKittiä verenpaine- ja sykearvojen tallentamiseen.";
+
+"NSLocalNetworkUsageDescription" = "Sovellus käyttää paikallisverkkoa tietojen synkronointiin suoraan iPhonen ja Macin välillä.";

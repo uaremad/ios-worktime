@@ -1,0 +1,5 @@
+xcassets:
+  - inputs: App/Resources/Assets.xcassets
+    outputs:
+    - templatePath: ./Stencils/Assets.stencil
+      output: App/Sources/Generated/Assets.swift

@@ -1,0 +1,14 @@
+/* Localized versions of Info.plist keys */
+
+"CFBundleDisplayName" = "Presión Arterial";
+"CFBundleName" = "Presión Arterial";
+
+/* Usage Descriptions */
+"NSPhotoLibraryUsageDescription" = "La aplicación puede guardar gráficos exportados como imágenes en tu fototeca.";
+"NSPhotoLibraryAddUsageDescription" = "La aplicación guarda imágenes de gráficos exportadas en tu fototeca.";
+"NSCameraUsageDescription" = "Ciertas funciones de la aplicación requieren acceso a la cámara de tu dispositivo para escanear documentos.";
+"NSContactsUsageDescription" = "La aplicación puede solicitar acceso a tus contactos para optimizar la comunicación y simplificar la selección de destinatarios.";
+"NSHealthShareUsageDescription" = "La aplicación usa HealthKit para leer valores de presión arterial y pulso.";
+"NSHealthUpdateUsageDescription" = "La aplicación usa HealthKit para guardar valores de presión arterial y pulso.";
+
+"NSLocalNetworkUsageDescription" = "La aplicación usa la red local para sincronizar datos directamente entre tu iPhone y tu Mac.";

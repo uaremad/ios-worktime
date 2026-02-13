@@ -1,0 +1,14 @@
+/* Localized versions of Info.plist keys */
+
+"CFBundleDisplayName" = "Pressio Sanguinis";
+"CFBundleName" = "Pressio Sanguinis";
+
+/* Usage Descriptions */
+"NSPhotoLibraryUsageDescription" = "Applicatio chartas exportatas ut imagines in photographicam tuam recondere potest.";
+"NSPhotoLibraryAddUsageDescription" = "Applicatio imagines chartarum exportatarum in photographicam tuam recondit.";
+"NSCameraUsageDescription" = "Quaedam munia applicationis aditum ad photographicam machinae tuae requirunt ad documenta perscrutanda.";
+"NSContactsUsageDescription" = "Applicatio aditum ad contactus tuos petere potest ad communicationem optimandam et selectionem destinatariorum simplificandam.";
+"NSHealthShareUsageDescription" = "Applicatio HealthKit utitur ad pressiones sanguinis et pulsus valores legere.";
+"NSHealthUpdateUsageDescription" = "Applicatio HealthKit utitur ad pressiones sanguinis et pulsus valores servare.";
+
+"NSLocalNetworkUsageDescription" = "Applicatio rete locale utitur ad data inter iPhone et Mac tuum directe synchronizanda.";

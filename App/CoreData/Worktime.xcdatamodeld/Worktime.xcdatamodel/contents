@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="24512" systemVersion="25C56" minimumToolsVersion="Xcode 9.0" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="Activities" representedClassName="Activities" syncable="YES">
+        <attribute name="is_active" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="shared_profile" optional="YES" attributeType="Boolean" defaultValueString="YES" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="invoiceLines" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="InvoiceLine" inverseName="activity" inverseEntity="InvoiceLine" syncable="YES"/>
+        <relationship name="profile" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Profile" inverseName="activities" inverseEntity="Profile" syncable="YES"/>
+        <relationship name="rates" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Rates" inverseName="activity" inverseEntity="Rates" syncable="YES"/>
+        <relationship name="rateTemplates" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="RateTemplate" inverseName="activity" inverseEntity="RateTemplate" syncable="YES"/>
+        <relationship name="timerecords" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="TimeRecords" inverseName="activity" inverseEntity="TimeRecords" syncable="YES"/>
+    </entity>
+    <entity name="Attachment" representedClassName="Attachment" syncable="YES">
+        <attribute name="created_at" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="filename" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="kind" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="local_path" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mime_type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="storage_key" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="timeRecord" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="TimeRecords" inverseName="attachments" inverseEntity="TimeRecords" syncable="YES"/>
+    </entity>
+    <entity name="Absence" representedClassName="Absence" syncable="YES">
+        <attribute name="created_at" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="end_date" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="minutes" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="notice" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="start_date" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updated_at" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="profile" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Profile" inverseName="absences" inverseEntity="Profile" syncable="YES"/>
+    </entity>
+    <entity name="Client" representedClassName="Client" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="country_code" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="created_at" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="external_ref" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="invoice_address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="invoice_email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="is_active" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sales_tax_exempt" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="sales_tax_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="shared_profile" optional="YES" attributeType="Boolean" defaultValueString="YES" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="tax_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updated_at" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="vat_id" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="invoices" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Invoice" inverseName="client" inverseEntity="Invoice" syncable="YES"/>
+        <relationship name="lineTemplates" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="LineTemplate" inverseName="client" inverseEntity="LineTemplate" syncable="YES"/>
+        <relationship name="orders" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Order" inverseName="client" inverseEntity="Order" syncable="YES"/>
+        <relationship name="profile" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Profile" inverseName="clients" inverseEntity="Profile" syncable="YES"/>
+    </entity>
+    <entity name="Configuration" representedClassName="Configuration" syncable="YES">
+        <attribute name="config_key" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="config_value" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="created_at" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="updated_at" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="profile" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Profile" inverseName="configurations" inverseEntity="Profile" syncable="YES"/>
+    </entity>
+    <entity name="CostCentre" representedClassName="CostCentre" syncable="YES">
+        <attribute name="external_ref" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="notice" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="shared_profile" optional="YES" attributeType="Boolean" defaultValueString="YES" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="orders" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Order" inverseName="costCentre" inverseEntity="Order" syncable="YES"/>
+        <relationship name="profile" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Profile" inverseName="costCentres" inverseEntity="Profile" syncable="YES"/>
+        <relationship name="timerecords" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="TimeRecords" inverseName="costCentre" inverseEntity="TimeRecords" syncable="YES"/>
+    </entity>
+    <entity name="Invoice" representedClassName="Invoice" syncable="YES">
+        <attribute name="created_at" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="currency" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="due_date" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="footer_text" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="issue_date" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="jurisdiction" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="notes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="number" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="paid_at" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="payment_terms" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="payment_reference" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="period_end" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="period_start" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="po_number" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tax_mode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updated_at" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="client" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Client" inverseName="invoices" inverseEntity="Client" syncable="YES"/>
+        <relationship name="issuer" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Issuer" inverseName="invoices" inverseEntity="Issuer" syncable="YES"/>
+        <relationship name="lines" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="InvoiceLine" inverseName="invoice" inverseEntity="InvoiceLine" syncable="YES"/>
+        <relationship name="profile" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Profile" inverseName="invoices" inverseEntity="Profile" syncable="YES"/>
+    </entity>
+    <entity name="InvoiceLine" representedClassName="InvoiceLine" syncable="YES">
+        <attribute name="amount" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="billing_type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="created_at" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="description_text" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="quantity" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="sort_index" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="source_type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tax_rate" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="unit" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="unit_price" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="updated_at" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="activity" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Activities" inverseName="invoiceLines" inverseEntity="Activities" syncable="YES"/>
+        <relationship name="invoice" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Invoice" inverseName="lines" inverseEntity="Invoice" syncable="YES"/>
+        <relationship name="order" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Order" inverseName="invoiceLines" inverseEntity="Order" syncable="YES"/>
+        <relationship name="rate" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Rates" inverseName="invoiceLines" inverseEntity="Rates" syncable="YES"/>
+        <relationship name="template" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="LineTemplate" inverseName="invoiceLines" inverseEntity="LineTemplate" syncable="YES"/>
+        <relationship name="timeRecords" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="TimeRecords" inverseName="invoiceLine" inverseEntity="TimeRecords" syncable="YES"/>
+    </entity>
+    <entity name="Issuer" representedClassName="Issuer" syncable="YES">
+        <attribute name="bank_account_number" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="bank_bic" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="bank_iban" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="bank_routing_number" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="is_active" optional="YES" attributeType="Boolean" defaultValueString="YES" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="payment_method" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="shared_profile" optional="YES" attributeType="Boolean" defaultValueString="YES" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="tax_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="vat_id" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="invoices" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Invoice" inverseName="issuer" inverseEntity="Invoice" syncable="YES"/>
+        <relationship name="profile" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Profile" inverseName="issuers" inverseEntity="Profile" syncable="YES"/>
+    </entity>
+    <entity name="LineTemplate" representedClassName="LineTemplate" syncable="YES">
+        <attribute name="billing_type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="currency" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="default_description" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="default_quantity" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="default_tax_rate" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="default_title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="default_unit_price" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="is_active" optional="YES" attributeType="Boolean" defaultValueString="YES" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="shared_profile" optional="YES" attributeType="Boolean" defaultValueString="YES" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="unit" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="client" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Client" inverseName="lineTemplates" inverseEntity="Client" syncable="YES"/>
+        <relationship name="invoiceLines" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="InvoiceLine" inverseName="template" inverseEntity="InvoiceLine" syncable="YES"/>
+        <relationship name="order" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Order" inverseName="lineTemplates" inverseEntity="Order" syncable="YES"/>
+        <relationship name="profile" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Profile" inverseName="lineTemplates" inverseEntity="Profile" syncable="YES"/>
+    </entity>
+    <entity name="Order" representedClassName="Order" syncable="YES">
+        <attribute name="code" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="created_at" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="is_active" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="notice" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="shared_profile" optional="YES" attributeType="Boolean" defaultValueString="YES" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="updated_at" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="uuid" optional="YES" attributeType="UUID" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="valid_from" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="valid_to" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="client" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Client" inverseName="orders" inverseEntity="Client" syncable="YES"/>
+        <relationship name="costCentre" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CostCentre" inverseName="orders" inverseEntity="CostCentre" syncable="YES"/>
+        <relationship name="invoiceLines" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="InvoiceLine" inverseName="order" inverseEntity="InvoiceLine" syncable="YES"/>
+        <relationship name="lineTemplates" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="LineTemplate" inverseName="order" inverseEntity="LineTemplate" syncable="YES"/>
+        <relationship name="profile" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Profile" inverseName="orders" inverseEntity="Profile" syncable="YES"/>
+        <relationship name="rates" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Rates" inverseName="order" inverseEntity="Rates" syncable="YES"/>
+        <relationship name="timerecords" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="TimeRecords" inverseName="order" inverseEntity="TimeRecords" syncable="YES"/>
+    </entity>
+    <entity name="Profile" representedClassName="Profile" syncable="YES">
+        <attribute name="created_at" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="is_active" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updated_at" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="uuid" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="activities" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Activities" inverseName="profile" inverseEntity="Activities" syncable="YES"/>
+        <relationship name="absences" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Absence" inverseName="profile" inverseEntity="Absence" syncable="YES"/>
+        <relationship name="approvedTimeRecords" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="TimeRecords" inverseName="approved_by" inverseEntity="TimeRecords" syncable="YES"/>
+        <relationship name="clients" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Client" inverseName="profile" inverseEntity="Client" syncable="YES"/>
+        <relationship name="configurations" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Configuration" inverseName="profile" inverseEntity="Configuration" syncable="YES"/>
+        <relationship name="costCentres" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="CostCentre" inverseName="profile" inverseEntity="CostCentre" syncable="YES"/>
+        <relationship name="invoices" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Invoice" inverseName="profile" inverseEntity="Invoice" syncable="YES"/>
+        <relationship name="issuers" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Issuer" inverseName="profile" inverseEntity="Issuer" syncable="YES"/>
+        <relationship name="lineTemplates" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="LineTemplate" inverseName="profile" inverseEntity="LineTemplate" syncable="YES"/>
+        <relationship name="orders" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Order" inverseName="profile" inverseEntity="Order" syncable="YES"/>
+        <relationship name="rates" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Rates" inverseName="profile" inverseEntity="Rates" syncable="YES"/>
+        <relationship name="rateTemplates" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="RateTemplate" inverseName="profile" inverseEntity="RateTemplate" syncable="YES"/>
+        <relationship name="timeRecords" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="TimeRecords" inverseName="profile" inverseEntity="TimeRecords" syncable="YES"/>
+    </entity>
+    <entity name="RateTemplate" representedClassName="RateTemplate" syncable="YES">
+        <attribute name="billing_type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="created_at" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="currency" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fixed_amount" optional="YES" attributeType="Double" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="hourly_rate" optional="YES" attributeType="Double" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="is_active" optional="YES" attributeType="Boolean" defaultValueString="YES" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="shared_profile" optional="YES" attributeType="Boolean" defaultValueString="YES" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="updated_at" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="valid_from" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="valid_to" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="activity" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Activities" inverseName="rateTemplates" inverseEntity="Activities" syncable="YES"/>
+        <relationship name="profile" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Profile" inverseName="rateTemplates" inverseEntity="Profile" syncable="YES"/>
+    </entity>
+    <entity name="Rates" representedClassName="Rates" syncable="YES">
+        <attribute name="billing_type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="created_at" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="currency" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fixed_amount" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="hourly_rate" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="is_default" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="shared_profile" optional="YES" attributeType="Boolean" defaultValueString="YES" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="updated_at" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="valid_from" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="valid_to" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="activity" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Activities" inverseName="rates" inverseEntity="Activities" syncable="YES"/>
+        <relationship name="invoiceLines" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="InvoiceLine" inverseName="rate" inverseEntity="InvoiceLine" syncable="YES"/>
+        <relationship name="order" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Order" inverseName="rates" inverseEntity="Order" syncable="YES"/>
+        <relationship name="profile" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Profile" inverseName="rates" inverseEntity="Profile" syncable="YES"/>
+        <relationship name="timerecords" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="TimeRecords" inverseName="rate" inverseEntity="TimeRecords" syncable="YES"/>
+    </entity>
+    <entity name="TimeRecordChange" representedClassName="TimeRecordChange" syncable="YES">
+        <attribute name="changed_at" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="changed_by_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="field_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="new_value" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="old_value" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="timeRecord" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="TimeRecords" inverseName="changes" inverseEntity="TimeRecords" syncable="YES"/>
+    </entity>
+    <entity name="TimeRecords" representedClassName="TimeRecords" syncable="YES">
+        <attribute name="approval_note" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="approval_status" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="approved_at" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="approved_by_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="attested" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="attested_at" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="attested_by_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="billing_status" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="billing_type_snapshot" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="break_minutes" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="created_at" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="currency_snapshot" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="duration_minutes" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="end_time" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="fixed_amount_snapshot" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="hourly_rate_snapshot" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="invoiced_at" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="is_running" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="locked" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="net_minutes" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="notice" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="start_time" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="work_date" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="activity" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Activities" inverseName="timerecords" inverseEntity="Activities" syncable="YES"/>
+        <relationship name="attachments" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Attachment" inverseName="timeRecord" inverseEntity="Attachment" syncable="YES"/>
+        <relationship name="changes" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="TimeRecordChange" inverseName="timeRecord" inverseEntity="TimeRecordChange" syncable="YES"/>
+        <relationship name="approved_by" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Profile" inverseName="approvedTimeRecords" inverseEntity="Profile" syncable="YES"/>
+        <relationship name="costCentre" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CostCentre" inverseName="timerecords" inverseEntity="CostCentre" syncable="YES"/>
+        <relationship name="invoiceLine" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="InvoiceLine" inverseName="timeRecords" inverseEntity="InvoiceLine" syncable="YES"/>
+        <relationship name="order" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Order" inverseName="timerecords" inverseEntity="Order" syncable="YES"/>
+        <relationship name="profile" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Profile" inverseName="timeRecords" inverseEntity="Profile" syncable="YES"/>
+        <relationship name="rate" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Rates" inverseName="timerecords" inverseEntity="Rates" syncable="YES"/>
+    </entity>
+</model>

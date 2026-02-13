@@ -1,0 +1,14 @@
+/* Localized versions of Info.plist keys */
+
+"CFBundleDisplayName" = "ضغط الدم";
+"CFBundleName" = "ضغط الدم";
+
+/* Usage Descriptions */
+"NSPhotoLibraryUsageDescription" = "يمكن للتطبيق حفظ الرسوم البيانية المُصدّرة كصور في مكتبة الصور الخاصة بك.";
+"NSPhotoLibraryAddUsageDescription" = "يحفظ التطبيق صور الرسوم البيانية المُصدّرة في مكتبة الصور الخاصة بك.";
+"NSCameraUsageDescription" = "تتطلب ميزات معينة في التطبيق الوصول إلى كاميرا جهازك لمسح المستندات.";
+"NSContactsUsageDescription" = "قد يطلب التطبيق الوصول إلى جهات الاتصال الخاصة بك لتحسين الاتصال وتبسيط اختيار المستلمين.";
+"NSHealthShareUsageDescription" = "يستخدم التطبيق HealthKit لقراءة قيم ضغط الدم والنبض.";
+"NSHealthUpdateUsageDescription" = "يستخدم التطبيق HealthKit لحفظ قيم ضغط الدم والنبض.";
+
+"NSLocalNetworkUsageDescription" = "يستخدم التطبيق الشبكة المحلية لمزامنة البيانات مباشرة بين جهاز iPhone و Mac.";

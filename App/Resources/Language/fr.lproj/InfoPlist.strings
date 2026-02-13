@@ -1,0 +1,14 @@
+/* Localized versions of Info.plist keys */
+
+"CFBundleDisplayName" = "Tension Artérielle";
+"CFBundleName" = "Tension Artérielle";
+
+/* Usage Descriptions */
+"NSPhotoLibraryUsageDescription" = "L'application peut enregistrer les graphiques exportés sous forme d'images dans votre photothèque.";
+"NSPhotoLibraryAddUsageDescription" = "L'application enregistre les images de graphiques exportées dans votre photothèque.";
+"NSCameraUsageDescription" = "Certaines fonctionnalités de l'application nécessitent l'accès à l'appareil photo de votre appareil pour numériser des documents.";
+"NSContactsUsageDescription" = "L'application peut demander l'accès à vos contacts pour optimiser la communication et simplifier la sélection des destinataires.";
+"NSHealthShareUsageDescription" = "L'application utilise HealthKit pour lire les valeurs de tension artérielle et de pouls.";
+"NSHealthUpdateUsageDescription" = "L'application utilise HealthKit pour enregistrer les valeurs de tension artérielle et de pouls.";
+
+"NSLocalNetworkUsageDescription" = "L'application utilise le réseau local pour synchroniser les données directement entre votre iPhone et votre Mac.";

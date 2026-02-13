@@ -1,0 +1,13 @@
+--commas inline
+--enable blockComments
+--exclude DerivedData, _dev, Pods, Scripts, Docs
+--exclude CodeGen/.derivedData, CodeGen/DerivedData
+--exclude .derivedData, builds, .build, .tuist-bin, ci_scripts
+--exclude App/Derived, Derived, Templates, Locations
+--exclude Modules/**/Derived
+--header "\n Copyright © {year} - Jan-Hendrik Damerau. All rights reserved.\n"
+--ifdef no-indent
+--indent 4
+--importgrouping testable-bottom
+--wrapcollections before-first
+--wrapparameters before-first

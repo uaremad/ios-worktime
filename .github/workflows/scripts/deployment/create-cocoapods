@@ -1,0 +1,100 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+import os
+import sys
+import argparse
+import subprocess
+import json
+
+def runShellCommand(shell_command, workingdir, ignore_return_code=False):
+    sys.stdout.flush()
+    sys.stderr.flush()
+    p = subprocess.Popen([shell_command], stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True, cwd=workingdir)
+    stdoutput = p.communicate()[0]
+    sys.stdout.flush()
+    sys.stderr.flush()
+    if p.returncode > 0 and not ignore_return_code:
+        print("error executing '" + shell_command + "'")
+        sys.exit(p.returncode)
+    return (p.returncode, stdoutput.decode(encoding='UTF-8').rstrip())
+
+class PodSpec:
+    name = None
+    version = None
+
+    ios_deployment_target = None
+    watchos_deployment_target = None
+    tvos_deployment_target = None
+    macos_deployment_target = None
+
+    dependencies = []
+
+    def __init__(self, name, version):
+        self.name = name
+        self.version = version
+
+    def write(self, path):
+        content = f"""
+Pod::Spec.new do |spec|
+  spec.name               = '{self.name}'
+  spec.summary            = '{self.name}'
+  spec.version            = '{self.version}'
+  spec.authors            = 'NUUK'
+  spec.license            = {{ :type => 'Commercial', 
+    :text => <<-LICENSE
+      Copyright 2023 Network System
+    LICENSE
+  }}
+  spec.homepage           = 'https://github.com/SPORTFIVE/ios_clubplatform_sdk'
+  spec.swift_version      = '5'
+  spec.source             = {{ :http => 'https://github.com/SPORTFIVE/sdk/ios/{self.name}/{self.version}/{self.name}.tar.gz' }}
+  spec.vendored_frameworks = '{self.name}.xcframework'\n
+"""
+
+        if self.ios_deployment_target != None:
+            content += f"  spec.ios.deployment_target = '{self.ios_deployment_target}'\n"
+        elif self.watchos_deployment_target != None:
+            content += f"  spec.watchos_deployment_target.deployment_target = '{self.watchos_deployment_target}'\n"
+        elif self.tvos_deployment_target != None:
+            content += f"  spec.tvos.deployment_target = '{self.tvos_deployment_target}'\n"
+        elif self.macos_deployment_target != None:
+            content += f"  spec.osx.deployment_target = '{self.macos_deployment_target}'\n"
+
+        for dependency in self.dependencies:
+            content += f"  spec.dependency '{dependency[0]}', '{dependency[1]}'\n"
+
+        content += "end\n"
+
+        with open(os.path.join(path, f"{self.name}.podspec"), 'w') as f:
+            f.write(content)
+
+# main routine
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument('name', help='The name of the Podspec')
+    parser.add_argument('version', help='The version of the Podspec')
+
+    options = parser.parse_args()
+
+    name = options.name
+    version = options.version
+
+    podSpec = PodSpec(name, version)
+
+    (returncode, output) = runShellCommand('swift package dump-package', os.getcwd(), True)
+    package_json = json.loads(output)
+
+    dependencies = package_json['dependencies']
+    
+    for i in range(0, len(dependencies)):
+        dependency = dependencies[i]
+        requirement = dependency['scm'][0]['requirement']
+        dependency_name = dependency['scm'][0]['name']
+        if "range" in requirement:
+            podSpec.dependencies.append((dependency_name, f"~> {requirement['range'][0]['lowerBound']}"))
+        elif "exact" in requirement:
+            podSpec.dependencies.append((dependency_name, f"{requirement['exact'][0]}"))
+
+    print(podSpec.name, podSpec.version, podSpec.dependencies)
+    podSpec.write(os.getcwd())

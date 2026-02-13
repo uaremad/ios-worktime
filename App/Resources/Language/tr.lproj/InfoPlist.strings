@@ -1,0 +1,14 @@
+/* Localized versions of Info.plist keys */
+
+"CFBundleDisplayName" = "Kan Basıncı";
+"CFBundleName" = "Kan Basıncı";
+
+/* Usage Descriptions */
+"NSPhotoLibraryUsageDescription" = "Uygulama, dışa aktarılan grafikleri fotoğraf kitaplığınıza resim olarak kaydedebilir.";
+"NSPhotoLibraryAddUsageDescription" = "Uygulama, dışa aktarılan grafik resimlerini fotoğraf kitaplığınıza kaydeder.";
+"NSCameraUsageDescription" = "Uygulamanın belirli özellikleri, belge tarama işlevi için cihazınızın kamerasına erişim gerektirir.";
+"NSContactsUsageDescription" = "Uygulama, iletişimi optimize etmek ve alıcı seçimini basitleştirmek için kişilerinize erişim talep edebilir.";
+"NSHealthShareUsageDescription" = "Uygulama, kan basıncı ve nabız değerlerini okumak için HealthKit kullanır.";
+"NSHealthUpdateUsageDescription" = "Uygulama, kan basıncı ve nabız değerlerini kaydetmek için HealthKit kullanır.";
+
+"NSLocalNetworkUsageDescription" = "Uygulama, iPhone ve Mac arasında verileri doğrudan senkronize etmek için yerel ağı kullanır.";

@@ -1,0 +1,68 @@
+{
+  "configurations" : [
+    {
+      "id" : "4C60796C-5C51-4847-AF5E-EDE20F34081E",
+      "name" : "Localized",
+      "options" : {
+        "language" : "de",
+        "region" : "DE"
+      }
+    }
+  ],
+"defaultOptions" : {
+    "codeCoverage" : {
+      "targets" : [
+        {
+          "containerPath" : "container:App\/App.xcodeproj",
+          "identifier" : "93E9E330FC2CE7458D9C925F",
+          "name" : "App"
+        }
+      ]
+    },
+    "testExecutionOrdering" : "random"
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:App\/App.xcodeproj",
+        "identifier" : "99DCC7BD0ABB09C467644299",
+        "name" : "AppTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:Modules\/CoreDataKit\/CoreDataKit.xcodeproj",
+        "identifier" : "BAE13E5A40EB8A0EB9C621A1",
+        "name" : "CoreDataKitTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:Modules\/PDFGenerator\/PDFGenerator.xcodeproj",
+        "identifier" : "32526496B3F2B42A1B2168A8",
+        "name" : "PDFGeneratorTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:Modules\/SignatureKit\/SignatureKit.xcodeproj",
+        "identifier" : "C8646B305D09DCFD14F3AB90",
+        "name" : "SignatureKitTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:Modules\/TextEditor\/TextEditor.xcodeproj",
+        "identifier" : "99AE158FB36D606CC0745CEA",
+        "name" : "TextEditorTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:Modules\/LetterComposerKit\/LetterComposerKit.xcodeproj",
+        "name" : "LetterComposerKitTests"
+      }
+    }
+  ],
+  "version" : 1
+}

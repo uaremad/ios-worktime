@@ -1,0 +1,14 @@
+/* Localized versions of Info.plist keys */
+
+"CFBundleDisplayName" = "Bloeddruk";
+"CFBundleName" = "Bloeddruk";
+
+/* Usage Descriptions */
+"NSPhotoLibraryUsageDescription" = "De app kan geëxporteerde grafieken als afbeeldingen opslaan in je fotobibliotheek.";
+"NSPhotoLibraryAddUsageDescription" = "De app slaat geëxporteerde grafiekafbeeldingen op in je fotobibliotheek.";
+"NSCameraUsageDescription" = "Bepaalde functies van de app vereisen toegang tot de camera van je apparaat voor het scannen van documenten.";
+"NSContactsUsageDescription" = "De app kan toegang tot je contacten aanvragen om communicatie te optimaliseren en de selectie van ontvangers te vereenvoudigen.";
+"NSHealthShareUsageDescription" = "De app gebruikt HealthKit om bloeddruk- en polswaarden te lezen.";
+"NSHealthUpdateUsageDescription" = "De app gebruikt HealthKit om bloeddruk- en polswaarden op te slaan.";
+
+"NSLocalNetworkUsageDescription" = "De app gebruikt het lokale netwerk om gegevens rechtstreeks te synchroniseren tussen je iPhone en je Mac.";

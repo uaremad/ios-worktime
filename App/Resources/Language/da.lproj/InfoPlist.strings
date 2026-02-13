@@ -1,0 +1,14 @@
+/* Localized versions of Info.plist keys */
+
+"CFBundleDisplayName" = "Blodtryk";
+"CFBundleName" = "Blodtryk";
+
+/* Usage Descriptions */
+"NSPhotoLibraryUsageDescription" = "Appen kan gemme eksporterede diagrammer som billeder i dit fotoarkiv.";
+"NSPhotoLibraryAddUsageDescription" = "Appen gemmer eksporterede diagrambilleder i dit fotoarkiv.";
+"NSCameraUsageDescription" = "Visse funktioner i appen kræver adgang til dit enheds kamera til dokumentscanning.";
+"NSContactsUsageDescription" = "Appen kan anmode om adgang til dine kontakter for at optimere kommunikation og forenkle valg af modtagere.";
+"NSHealthShareUsageDescription" = "Appen bruger HealthKit til at læse blodtryks- og pulsværdier.";
+"NSHealthUpdateUsageDescription" = "Appen bruger HealthKit til at gemme blodtryks- og pulsværdier.";
+
+"NSLocalNetworkUsageDescription" = "Appen bruger det lokale netværk til at synkronisere data direkte mellem din iPhone og din Mac.";

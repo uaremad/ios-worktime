@@ -1,0 +1,2833 @@
+{
+  "sourceLanguage": "de",
+  "strings": {
+    "measurement_time_period_afternoon_measured": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nachmittags gemessen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Measured in the afternoon"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Medido por la tarde"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mesuré l'après-midi"
+          }
+        },
+        "la": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Post meridiem mensum"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Medido à tarde"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Измерено днём"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تم القياس بعد الظهر"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Målt om eftermiddagen"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mitattu iltapäivällä"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "午後に測定"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Målt på ettermiddagen"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gemeten in de middag"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zmierzono po południu"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mätt på eftermiddagen"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Öğleden sonra ölçüldü"
+          }
+        }
+      }
+    },
+    "measurement_time_period_evening_measured": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abends gemessen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Measured in the evening"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Medido por la noche"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mesuré le soir"
+          }
+        },
+        "la": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vespere mensum"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Medido à noite"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Измерено вечером"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تم القياس مساءً"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Målt om aftenen"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mitattu illalla"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "夕方に測定"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Målt om kvelden"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gemeten in de avond"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zmierzono wieczorem"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mätt på kvällen"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Akşam ölçüldü"
+          }
+        }
+      }
+    },
+    "measurement_time_period_morning_measured": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vormittags gemessen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Measured in the morning"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Medido por la mañana"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mesuré le matin"
+          }
+        },
+        "la": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mane mensum"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Medido de manhã"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Измерено утром"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تم القياس صباحاً"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Målt om formiddagen"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mitattu aamulla"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "午前に測定"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Målt på formiddagen"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gemeten in de ochtend"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zmierzono rano"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mätt på förmiddagen"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sabah ölçüldü"
+          }
+        }
+      }
+    },
+    "measurement_time_period_night_measured": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nachts gemessen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Measured at night"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Medido de madrugada"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mesuré la nuit"
+          }
+        },
+        "la": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nocte mensum"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Medido de madrugada"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Измерено ночью"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تم القياس ليلاً"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Målt om natten"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mitattu yöllä"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "夜に測定"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Målt om natten"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gemeten 's nachts"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zmierzono w nocy"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mätt på natten"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gece ölçüldü"
+          }
+        }
+      }
+    },
+    "measurement_input_mode_native": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "أصلي"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Native"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Native"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Native"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nativo"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Native"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Natif"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Native"
+          }
+        },
+        "la": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nativus"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Native"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Native"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Natywny"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nativo"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Нативный"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Native"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yerel"
+          }
+        }
+      }
+    },
+    "measurement_input_mode_direct": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "مباشر"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Direkte"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Direkt"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Direct"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Directo"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Suora"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Direct"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Direct"
+          }
+        },
+        "la": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Directus"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Direkte"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Direct"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bezpośredni"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Direto"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Прямой"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Direkt"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Doğrudan"
+          }
+        }
+      }
+    },
+    "measurement_input_systolic": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Systolisch"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Systolic"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sistólica"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Systolique"
+          }
+        },
+        "la": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Systolica"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sistólica"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Систолическое"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "الانقباضي"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Systolisk"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Systolinen"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "収縮期"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Systolisk"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Systolisch"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Skurczowe"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Systoliskt"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sistolik"
+          }
+        }
+      }
+    },
+    "measurement_input_diastolic": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Diastolisch"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Diastolic"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Diastólica"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Diastolique"
+          }
+        },
+        "la": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Diastolica"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Diastólica"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Диастолическое"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "الانبساطي"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Diastolisk"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Diastolinen"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "拡張期"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Diastolisk"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Diastolisch"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rozkurczowe"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Diastoliskt"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Diyastolik"
+          }
+        }
+      }
+    },
+    "measurement_input_pulse": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Puls"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pulse"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pulso"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pouls"
+          }
+        },
+        "la": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pulsus"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pulso"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Пульс"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "النبض"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Puls"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Syke"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "脈拍"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Puls"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pols"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tętno"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Puls"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nabız"
+          }
+        }
+      }
+    },
+    "measurement_input_date": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Datum"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Date"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fecha"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Date"
+          }
+        },
+        "la": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dies"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Data"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Дата"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "التاريخ"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dato"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Päivämäärä"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "日付"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dato"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Datum"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Data"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Datum"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tarih"
+          }
+        }
+      }
+    },
+    "measurement_input_comment": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kommentar"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Comment"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Comentario"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Commentaire"
+          }
+        },
+        "la": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Commentarium"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Comentário"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Комментарий"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ملاحظة"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kommentar"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kommentti"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "コメント"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kommentar"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Opmerking"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Komentarz"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kommentar"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yorum"
+          }
+        }
+      }
+    },
+    "measurement_input_save": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Speichern"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Save"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Guardar"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enregistrer"
+          }
+        },
+        "la": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Servare"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Salvar"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сохранить"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "حفظ"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gem"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tallenna"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "保存"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lagre"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Opslaan"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zapisz"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Spara"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kaydet"
+          }
+        }
+      }
+    },
+    "measurement_input_cancel": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abbrechen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancel"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancelar"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Annuler"
+          }
+        },
+        "la": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Revocare"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancelar"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Отменить"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "إلغاء"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Annuller"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Peruuta"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "キャンセル"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Avbryt"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Annuleren"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Anuluj"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Avbryt"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "İptal"
+          }
+        }
+      }
+    },
+    "measurement_result_low": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Niedriger Blutdruck"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Low blood pressure"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Presión arterial baja"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tension artérielle basse"
+          }
+        },
+        "la": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pressio sanguinis humilis"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pressão arterial baixa"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Низкое артериальное давление"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ضغط دم منخفض"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lavt blodtryk"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Matala verenpaine"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "低血圧"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lavt blodtrykk"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lage bloeddruk"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Niskie ciśnienie krwi"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lågt blodtryck"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Düşük Tansiyon"
+          }
+        }
+      }
+    },
+    "measurement_result_optimal": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Optimal"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Optimal"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Óptima"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Optimale"
+          }
+        },
+        "la": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Optima"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ótima"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Оптимальное"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "مثالي"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Optimal"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Optimaalinen"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "最適"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Optimal"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Optimaal"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Optymalne"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Optimalt"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Optimal"
+          }
+        }
+      }
+    },
+    "measurement_result_normal": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Normal"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Normal"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Normal"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Normale"
+          }
+        },
+        "la": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Normalis"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Normal"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Нормальное"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "طبيعي"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Normal"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Normaali"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "正常"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Normal"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Normaal"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Normalne"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Normalt"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Normal"
+          }
+        }
+      }
+    },
+    "measurement_result_high_normal": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hochnormal"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "High normal"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Normal alta"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Normale élevée"
+          }
+        },
+        "la": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Normalis alta"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Normal alta"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Высокая норма"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "طبيعي مرتفع"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Høj normal"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Korkea normaali"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "正常高値"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Høy normal"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hoog normaal"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wysokie normalne"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Högt normalt"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yüksek Normal"
+          }
+        }
+      }
+    },
+    "measurement_result_hypertension_grade1": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hypertonie Grad 1"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hypertension grade 1"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hipertensión grado 1"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hypertension grade 1"
+          }
+        },
+        "la": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hypertensio gradus 1"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hipertensão grau 1"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Гипертония 1 степени"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ارتفاع ضغط الدم من الدرجة 1"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hypertension grad 1"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verenpainetauti aste 1"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "高血圧グレード1"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hypertensjon grad 1"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hypertensie graad 1"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nadciśnienie stopnia 1"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hypertoni grad 1"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hipertansiyon derece 1"
+          }
+        }
+      }
+    },
+    "measurement_result_hypertension_grade2": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hypertonie Grad 2"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hypertension grade 2"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hipertensión grado 2"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hypertension grade 2"
+          }
+        },
+        "la": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hypertensio gradus 2"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hipertensão grau 2"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Гипертония 2 степени"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ارتفاع ضغط الدم من الدرجة 2"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hypertension grad 2"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verenpainetauti aste 2"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "高血圧グレード2"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hypertensjon grad 2"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hypertensie graad 2"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nadciśnienie stopnia 2"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hypertoni grad 2"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hipertansiyon derece 2"
+          }
+        }
+      }
+    },
+    "measurement_result_hypertension_grade3": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hypertonie Grad 3"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hypertension grade 3"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hipertensión grado 3"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hypertension grade 3"
+          }
+        },
+        "la": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hypertensio gradus 3"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hipertensão grau 3"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Гипертония 3 степени"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ارتفاع ضغط الدم من الدرجة 3"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hypertension grad 3"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verenpainetauti aste 3"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "高血圧グレード3"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hypertensjon grad 3"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hypertensie graad 3"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nadciśnienie stopnia 3"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hypertoni grad 3"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hipertansiyon derece 3"
+          }
+        }
+      }
+    },
+    "measurement_list_pulse_pressure": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pulsdruck"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pulse pressure"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Presión de pulso"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pression pulsée"
+          }
+        },
+        "la": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pressio pulsus"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pressão de pulso"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Пульсовое давление"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "الضغط النبضي"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pulstryk"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pulsaatiopaine"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "脈圧"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pulstrykk"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Polsdruk"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ciśnienie tętna"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pulstryck"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nabız Basıncı"
+          }
+        }
+      }
+    },
+    "measurement_detail_edit": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تعديل"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rediger"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bearbeiten"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Edit"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Editar"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Muokkaa"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Modifier"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "編集"
+          }
+        },
+        "la": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recensere"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rediger"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bewerken"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Edytuj"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Editar"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Изменить"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Redigera"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Düzenle"
+          }
+        }
+      }
+    },
+    "measurement_input_tags": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "الوسوم"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tags"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tags"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tags"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Etiquetas"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tunnisteet"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Étiquettes"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "タグ"
+          }
+        },
+        "la": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Notae"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tagger"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tags"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tagi"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Etiquetas"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Теги"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Taggar"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Etiketler"
+          }
+        }
+      }
+    },
+    "timerecord_input_account": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": { "stringUnit": { "state": "translated", "value": "Account" } },
+        "da": { "stringUnit": { "state": "translated", "value": "Account" } },
+        "de": { "stringUnit": { "state": "translated", "value": "Account" } },
+        "en": { "stringUnit": { "state": "translated", "value": "Account" } },
+        "es": { "stringUnit": { "state": "translated", "value": "Account" } },
+        "fi": { "stringUnit": { "state": "translated", "value": "Account" } },
+        "fr": { "stringUnit": { "state": "translated", "value": "Account" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "Account" } },
+        "la": { "stringUnit": { "state": "translated", "value": "Ratio" } },
+        "nb": { "stringUnit": { "state": "translated", "value": "Konto" } },
+        "nl": { "stringUnit": { "state": "translated", "value": "Account" } },
+        "pl": { "stringUnit": { "state": "translated", "value": "Konto" } },
+        "pt": { "stringUnit": { "state": "translated", "value": "Conta" } },
+        "ru": { "stringUnit": { "state": "translated", "value": "Счёт" } },
+        "sv": { "stringUnit": { "state": "translated", "value": "Konto" } },
+        "tr": { "stringUnit": { "state": "translated", "value": "Hesap" } }
+      }
+    },
+    "timerecord_input_account_default": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": { "stringUnit": { "state": "translated", "value": "BVB-2" } },
+        "da": { "stringUnit": { "state": "translated", "value": "BVB-2" } },
+        "de": { "stringUnit": { "state": "translated", "value": "BVB-2" } },
+        "en": { "stringUnit": { "state": "translated", "value": "BVB-2" } },
+        "es": { "stringUnit": { "state": "translated", "value": "BVB-2" } },
+        "fi": { "stringUnit": { "state": "translated", "value": "BVB-2" } },
+        "fr": { "stringUnit": { "state": "translated", "value": "BVB-2" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "BVB-2" } },
+        "la": { "stringUnit": { "state": "translated", "value": "BVB-2" } },
+        "nb": { "stringUnit": { "state": "translated", "value": "BVB-2" } },
+        "nl": { "stringUnit": { "state": "translated", "value": "BVB-2" } },
+        "pl": { "stringUnit": { "state": "translated", "value": "BVB-2" } },
+        "pt": { "stringUnit": { "state": "translated", "value": "BVB-2" } },
+        "ru": { "stringUnit": { "state": "translated", "value": "BVB-2" } },
+        "sv": { "stringUnit": { "state": "translated", "value": "BVB-2" } },
+        "tr": { "stringUnit": { "state": "translated", "value": "BVB-2" } }
+      }
+    },
+    "timerecord_input_account_search_placeholder": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": { "stringUnit": { "state": "translated", "value": "البحث في الحسابات..." } },
+        "da": { "stringUnit": { "state": "translated", "value": "Søg konti..." } },
+        "de": { "stringUnit": { "state": "translated", "value": "Konten suchen..." } },
+        "en": { "stringUnit": { "state": "translated", "value": "Search accounts..." } },
+        "es": { "stringUnit": { "state": "translated", "value": "Buscar cuentas..." } },
+        "fi": { "stringUnit": { "state": "translated", "value": "Etsi tilejä..." } },
+        "fr": { "stringUnit": { "state": "translated", "value": "Rechercher des comptes..." } },
+        "ja": { "stringUnit": { "state": "translated", "value": "アカウントを検索..." } },
+        "la": { "stringUnit": { "state": "translated", "value": "Quaerere rationes..." } },
+        "nb": { "stringUnit": { "state": "translated", "value": "Søk kontoer..." } },
+        "nl": { "stringUnit": { "state": "translated", "value": "Accounts zoeken..." } },
+        "pl": { "stringUnit": { "state": "translated", "value": "Szukaj kont..." } },
+        "pt": { "stringUnit": { "state": "translated", "value": "Pesquisar contas..." } },
+        "ru": { "stringUnit": { "state": "translated", "value": "Поиск счетов..." } },
+        "sv": { "stringUnit": { "state": "translated", "value": "Sök konton..." } },
+        "tr": { "stringUnit": { "state": "translated", "value": "Hesap ara..." } }
+      }
+    },
+    "timerecord_input_clear": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": { "stringUnit": { "state": "translated", "value": "مسح الإدخال" } },
+        "da": { "stringUnit": { "state": "translated", "value": "Ryd input" } },
+        "de": { "stringUnit": { "state": "translated", "value": "Eingabe löschen" } },
+        "en": { "stringUnit": { "state": "translated", "value": "Clear input" } },
+        "es": { "stringUnit": { "state": "translated", "value": "Borrar entrada" } },
+        "fi": { "stringUnit": { "state": "translated", "value": "Tyhjennä syöte" } },
+        "fr": { "stringUnit": { "state": "translated", "value": "Effacer la saisie" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "入力をクリア" } },
+        "la": { "stringUnit": { "state": "translated", "value": "Initium purga" } },
+        "nb": { "stringUnit": { "state": "translated", "value": "Tøm inndata" } },
+        "nl": { "stringUnit": { "state": "translated", "value": "Invoer wissen" } },
+        "pl": { "stringUnit": { "state": "translated", "value": "Wyczyść dane" } },
+        "pt": { "stringUnit": { "state": "translated", "value": "Limpar entrada" } },
+        "ru": { "stringUnit": { "state": "translated", "value": "Очистить ввод" } },
+        "sv": { "stringUnit": { "state": "translated", "value": "Rensa inmatning" } },
+        "tr": { "stringUnit": { "state": "translated", "value": "Girdiyi temizle" } }
+      }
+    },
+    "timerecord_input_context": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": { "stringUnit": { "state": "translated", "value": "سياق العمل" } },
+        "da": { "stringUnit": { "state": "translated", "value": "Arbejdskontekst" } },
+        "de": { "stringUnit": { "state": "translated", "value": "Arbeitskontext" } },
+        "en": { "stringUnit": { "state": "translated", "value": "Work context" } },
+        "es": { "stringUnit": { "state": "translated", "value": "Contexto de trabajo" } },
+        "fi": { "stringUnit": { "state": "translated", "value": "Työkonteksti" } },
+        "fr": { "stringUnit": { "state": "translated", "value": "Contexte de travail" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "作業コンテキスト" } },
+        "la": { "stringUnit": { "state": "translated", "value": "Contextus operis" } },
+        "nb": { "stringUnit": { "state": "translated", "value": "Arbeidskontekst" } },
+        "nl": { "stringUnit": { "state": "translated", "value": "Werkcontext" } },
+        "pl": { "stringUnit": { "state": "translated", "value": "Kontekst pracy" } },
+        "pt": { "stringUnit": { "state": "translated", "value": "Contexto de trabalho" } },
+        "ru": { "stringUnit": { "state": "translated", "value": "Рабочий контекст" } },
+        "sv": { "stringUnit": { "state": "translated", "value": "Arbetskontext" } },
+        "tr": { "stringUnit": { "state": "translated", "value": "Is baglami" } }
+      }
+    },
+    "timerecord_input_context_placeholder": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": { "stringUnit": { "state": "translated", "value": "BVB-2 - Arbeitszeiten" } },
+        "da": { "stringUnit": { "state": "translated", "value": "BVB-2 - Arbejdstider" } },
+        "de": { "stringUnit": { "state": "translated", "value": "BVB-2 - Arbeitszeiten" } },
+        "en": { "stringUnit": { "state": "translated", "value": "BVB-2 - Working hours" } },
+        "es": { "stringUnit": { "state": "translated", "value": "BVB-2 - Horas de trabajo" } },
+        "fi": { "stringUnit": { "state": "translated", "value": "BVB-2 - Työtunnit" } },
+        "fr": { "stringUnit": { "state": "translated", "value": "BVB-2 - Heures de travail" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "BVB-2 - 勤務時間" } },
+        "la": { "stringUnit": { "state": "translated", "value": "BVB-2 - Horae operis" } },
+        "nb": { "stringUnit": { "state": "translated", "value": "BVB-2 - Arbeidstider" } },
+        "nl": { "stringUnit": { "state": "translated", "value": "BVB-2 - Werktijden" } },
+        "pl": { "stringUnit": { "state": "translated", "value": "BVB-2 - Godziny pracy" } },
+        "pt": { "stringUnit": { "state": "translated", "value": "BVB-2 - Horas de trabalho" } },
+        "ru": { "stringUnit": { "state": "translated", "value": "BVB-2 - Рабочие часы" } },
+        "sv": { "stringUnit": { "state": "translated", "value": "BVB-2 - Arbetstider" } },
+        "tr": { "stringUnit": { "state": "translated", "value": "BVB-2 - Calisma saatleri" } }
+      }
+    },
+    "timerecord_input_date": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": { "stringUnit": { "state": "translated", "value": "التاريخ" } },
+        "da": { "stringUnit": { "state": "translated", "value": "Dato" } },
+        "de": { "stringUnit": { "state": "translated", "value": "Datum" } },
+        "en": { "stringUnit": { "state": "translated", "value": "Date" } },
+        "es": { "stringUnit": { "state": "translated", "value": "Fecha" } },
+        "fi": { "stringUnit": { "state": "translated", "value": "Päivämäärä" } },
+        "fr": { "stringUnit": { "state": "translated", "value": "Date" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "日付" } },
+        "la": { "stringUnit": { "state": "translated", "value": "Dies" } },
+        "nb": { "stringUnit": { "state": "translated", "value": "Dato" } },
+        "nl": { "stringUnit": { "state": "translated", "value": "Datum" } },
+        "pl": { "stringUnit": { "state": "translated", "value": "Data" } },
+        "pt": { "stringUnit": { "state": "translated", "value": "Data" } },
+        "ru": { "stringUnit": { "state": "translated", "value": "Дата" } },
+        "sv": { "stringUnit": { "state": "translated", "value": "Datum" } },
+        "tr": { "stringUnit": { "state": "translated", "value": "Tarih" } }
+      }
+    },
+    "timerecord_input_description": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": { "stringUnit": { "state": "translated", "value": "الوصف" } },
+        "da": { "stringUnit": { "state": "translated", "value": "Beskrivelse" } },
+        "de": { "stringUnit": { "state": "translated", "value": "Beschreibung" } },
+        "en": { "stringUnit": { "state": "translated", "value": "Description" } },
+        "es": { "stringUnit": { "state": "translated", "value": "Descripción" } },
+        "fi": { "stringUnit": { "state": "translated", "value": "Kuvaus" } },
+        "fr": { "stringUnit": { "state": "translated", "value": "Description" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "説明" } },
+        "la": { "stringUnit": { "state": "translated", "value": "Descriptio" } },
+        "nb": { "stringUnit": { "state": "translated", "value": "Beskrivelse" } },
+        "nl": { "stringUnit": { "state": "translated", "value": "Beschrijving" } },
+        "pl": { "stringUnit": { "state": "translated", "value": "Opis" } },
+        "pt": { "stringUnit": { "state": "translated", "value": "Descrição" } },
+        "ru": { "stringUnit": { "state": "translated", "value": "Описание" } },
+        "sv": { "stringUnit": { "state": "translated", "value": "Beskrivning" } },
+        "tr": { "stringUnit": { "state": "translated", "value": "Aciklama" } }
+      }
+    },
+    "timerecord_input_duration": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": { "stringUnit": { "state": "translated", "value": "المدة" } },
+        "da": { "stringUnit": { "state": "translated", "value": "Varighed" } },
+        "de": { "stringUnit": { "state": "translated", "value": "Dauer" } },
+        "en": { "stringUnit": { "state": "translated", "value": "Duration" } },
+        "es": { "stringUnit": { "state": "translated", "value": "Duración" } },
+        "fi": { "stringUnit": { "state": "translated", "value": "Kesto" } },
+        "fr": { "stringUnit": { "state": "translated", "value": "Durée" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "時間" } },
+        "la": { "stringUnit": { "state": "translated", "value": "Duratio" } },
+        "nb": { "stringUnit": { "state": "translated", "value": "Varighet" } },
+        "nl": { "stringUnit": { "state": "translated", "value": "Duur" } },
+        "pl": { "stringUnit": { "state": "translated", "value": "Czas trwania" } },
+        "pt": { "stringUnit": { "state": "translated", "value": "Duração" } },
+        "ru": { "stringUnit": { "state": "translated", "value": "Длительность" } },
+        "sv": { "stringUnit": { "state": "translated", "value": "Varaktighet" } },
+        "tr": { "stringUnit": { "state": "translated", "value": "Sure" } }
+      }
+    },
+    "timerecord_input_duration_placeholder": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": { "stringUnit": { "state": "translated", "value": "h" } },
+        "da": { "stringUnit": { "state": "translated", "value": "h" } },
+        "de": { "stringUnit": { "state": "translated", "value": "h" } },
+        "en": { "stringUnit": { "state": "translated", "value": "h" } },
+        "es": { "stringUnit": { "state": "translated", "value": "h" } },
+        "fi": { "stringUnit": { "state": "translated", "value": "h" } },
+        "fr": { "stringUnit": { "state": "translated", "value": "h" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "h" } },
+        "la": { "stringUnit": { "state": "translated", "value": "h" } },
+        "nb": { "stringUnit": { "state": "translated", "value": "h" } },
+        "nl": { "stringUnit": { "state": "translated", "value": "h" } },
+        "pl": { "stringUnit": { "state": "translated", "value": "h" } },
+        "pt": { "stringUnit": { "state": "translated", "value": "h" } },
+        "ru": { "stringUnit": { "state": "translated", "value": "ч" } },
+        "sv": { "stringUnit": { "state": "translated", "value": "h" } },
+        "tr": { "stringUnit": { "state": "translated", "value": "s" } }
+      }
+    },
+    "timerecord_input_duration_minutes": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": { "stringUnit": { "state": "translated", "value": "%@ د" } },
+        "da": { "stringUnit": { "state": "translated", "value": "%@m" } },
+        "de": { "stringUnit": { "state": "translated", "value": "%@m" } },
+        "en": { "stringUnit": { "state": "translated", "value": "%@m" } },
+        "es": { "stringUnit": { "state": "translated", "value": "%@ min" } },
+        "fi": { "stringUnit": { "state": "translated", "value": "%@ min" } },
+        "fr": { "stringUnit": { "state": "translated", "value": "%@ min" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "%@分" } },
+        "la": { "stringUnit": { "state": "translated", "value": "%@m" } },
+        "nb": { "stringUnit": { "state": "translated", "value": "%@m" } },
+        "nl": { "stringUnit": { "state": "translated", "value": "%@m" } },
+        "pl": { "stringUnit": { "state": "translated", "value": "%@ min" } },
+        "pt": { "stringUnit": { "state": "translated", "value": "%@ min" } },
+        "ru": { "stringUnit": { "state": "translated", "value": "%@ мин" } },
+        "sv": { "stringUnit": { "state": "translated", "value": "%@m" } },
+        "tr": { "stringUnit": { "state": "translated", "value": "%@ dk" } }
+      }
+    },
+    "timerecord_input_end_time": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": { "stringUnit": { "state": "translated", "value": "وقت الانتهاء" } },
+        "da": { "stringUnit": { "state": "translated", "value": "Sluttid" } },
+        "de": { "stringUnit": { "state": "translated", "value": "Endzeit" } },
+        "en": { "stringUnit": { "state": "translated", "value": "End time" } },
+        "es": { "stringUnit": { "state": "translated", "value": "Hora de fin" } },
+        "fi": { "stringUnit": { "state": "translated", "value": "Päättymisaika" } },
+        "fr": { "stringUnit": { "state": "translated", "value": "Heure de fin" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "終了時刻" } },
+        "la": { "stringUnit": { "state": "translated", "value": "Tempus finis" } },
+        "nb": { "stringUnit": { "state": "translated", "value": "Sluttid" } },
+        "nl": { "stringUnit": { "state": "translated", "value": "Eindtijd" } },
+        "pl": { "stringUnit": { "state": "translated", "value": "Godzina zakończenia" } },
+        "pt": { "stringUnit": { "state": "translated", "value": "Hora de término" } },
+        "ru": { "stringUnit": { "state": "translated", "value": "Время окончания" } },
+        "sv": { "stringUnit": { "state": "translated", "value": "Sluttid" } },
+        "tr": { "stringUnit": { "state": "translated", "value": "Bitis saati" } }
+      }
+    },
+    "timerecord_input_activity": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": { "stringUnit": { "state": "translated", "value": "النشاط" } },
+        "da": { "stringUnit": { "state": "translated", "value": "Aktivitet" } },
+        "de": { "stringUnit": { "state": "translated", "value": "Tätigkeit" } },
+        "en": { "stringUnit": { "state": "translated", "value": "Activity" } },
+        "es": { "stringUnit": { "state": "translated", "value": "Actividad" } },
+        "fi": { "stringUnit": { "state": "translated", "value": "Toiminto" } },
+        "fr": { "stringUnit": { "state": "translated", "value": "Activité" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "作業" } },
+        "la": { "stringUnit": { "state": "translated", "value": "Actio" } },
+        "nb": { "stringUnit": { "state": "translated", "value": "Aktivitet" } },
+        "nl": { "stringUnit": { "state": "translated", "value": "Activiteit" } },
+        "pl": { "stringUnit": { "state": "translated", "value": "Aktywność" } },
+        "pt": { "stringUnit": { "state": "translated", "value": "Atividade" } },
+        "ru": { "stringUnit": { "state": "translated", "value": "Деятельность" } },
+        "sv": { "stringUnit": { "state": "translated", "value": "Aktivitet" } },
+        "tr": { "stringUnit": { "state": "translated", "value": "Etkinlik" } }
+      }
+    },
+    "timerecord_input_activity_placeholder": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": { "stringUnit": { "state": "translated", "value": "نشاط auswählen" } },
+        "da": { "stringUnit": { "state": "translated", "value": "Vælg aktivitet" } },
+        "de": { "stringUnit": { "state": "translated", "value": "Tätigkeit wählen" } },
+        "en": { "stringUnit": { "state": "translated", "value": "Select activity" } },
+        "es": { "stringUnit": { "state": "translated", "value": "Seleccionar actividad" } },
+        "fi": { "stringUnit": { "state": "translated", "value": "Valitse toiminto" } },
+        "fr": { "stringUnit": { "state": "translated", "value": "Sélectionner une activité" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "作業を選択" } },
+        "la": { "stringUnit": { "state": "translated", "value": "Actionem eligere" } },
+        "nb": { "stringUnit": { "state": "translated", "value": "Velg aktivitet" } },
+        "nl": { "stringUnit": { "state": "translated", "value": "Activiteit kiezen" } },
+        "pl": { "stringUnit": { "state": "translated", "value": "Wybierz aktywność" } },
+        "pt": { "stringUnit": { "state": "translated", "value": "Selecionar atividade" } },
+        "ru": { "stringUnit": { "state": "translated", "value": "Выбрать деятельность" } },
+        "sv": { "stringUnit": { "state": "translated", "value": "Välj aktivitet" } },
+        "tr": { "stringUnit": { "state": "translated", "value": "Etkinlik sec" } }
+      }
+    },
+    "timerecord_input_activity_recent": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": { "stringUnit": { "state": "translated", "value": "Zuletzt verwendet" } },
+        "da": { "stringUnit": { "state": "translated", "value": "Senest brugt" } },
+        "de": { "stringUnit": { "state": "translated", "value": "Zuletzt verwendet" } },
+        "en": { "stringUnit": { "state": "translated", "value": "Recently used" } },
+        "es": { "stringUnit": { "state": "translated", "value": "Usado recientemente" } },
+        "fi": { "stringUnit": { "state": "translated", "value": "Viimeksi käytetty" } },
+        "fr": { "stringUnit": { "state": "translated", "value": "Utilisé récemment" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "最近使用" } },
+        "la": { "stringUnit": { "state": "translated", "value": "Nuper usum" } },
+        "nb": { "stringUnit": { "state": "translated", "value": "Nylig brukt" } },
+        "nl": { "stringUnit": { "state": "translated", "value": "Recent gebruikt" } },
+        "pl": { "stringUnit": { "state": "translated", "value": "Ostatnio używane" } },
+        "pt": { "stringUnit": { "state": "translated", "value": "Usado recentemente" } },
+        "ru": { "stringUnit": { "state": "translated", "value": "Недавно использованные" } },
+        "sv": { "stringUnit": { "state": "translated", "value": "Nyligen använd" } },
+        "tr": { "stringUnit": { "state": "translated", "value": "Son kullanilan" } }
+      }
+    },
+    "timerecord_input_client": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": { "stringUnit": { "state": "translated", "value": "Client" } },
+        "da": { "stringUnit": { "state": "translated", "value": "Client" } },
+        "de": { "stringUnit": { "state": "translated", "value": "Client" } },
+        "en": { "stringUnit": { "state": "translated", "value": "Client" } },
+        "es": { "stringUnit": { "state": "translated", "value": "Client" } },
+        "fi": { "stringUnit": { "state": "translated", "value": "Client" } },
+        "fr": { "stringUnit": { "state": "translated", "value": "Client" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "Client" } },
+        "la": { "stringUnit": { "state": "translated", "value": "Cliens" } },
+        "nb": { "stringUnit": { "state": "translated", "value": "Client" } },
+        "nl": { "stringUnit": { "state": "translated", "value": "Client" } },
+        "pl": { "stringUnit": { "state": "translated", "value": "Client" } },
+        "pt": { "stringUnit": { "state": "translated", "value": "Client" } },
+        "ru": { "stringUnit": { "state": "translated", "value": "Client" } },
+        "sv": { "stringUnit": { "state": "translated", "value": "Client" } },
+        "tr": { "stringUnit": { "state": "translated", "value": "Client" } }
+      }
+    },
+    "timerecord_input_client_clear": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": { "stringUnit": { "state": "translated", "value": "Client entfernen" } },
+        "da": { "stringUnit": { "state": "translated", "value": "Fjern client" } },
+        "de": { "stringUnit": { "state": "translated", "value": "Client entfernen" } },
+        "en": { "stringUnit": { "state": "translated", "value": "Clear client" } },
+        "es": { "stringUnit": { "state": "translated", "value": "Quitar client" } },
+        "fi": { "stringUnit": { "state": "translated", "value": "Poista client" } },
+        "fr": { "stringUnit": { "state": "translated", "value": "Effacer le client" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "Client をクリア" } },
+        "la": { "stringUnit": { "state": "translated", "value": "Client purga" } },
+        "nb": { "stringUnit": { "state": "translated", "value": "Fjern client" } },
+        "nl": { "stringUnit": { "state": "translated", "value": "Client wissen" } },
+        "pl": { "stringUnit": { "state": "translated", "value": "Wyczyść client" } },
+        "pt": { "stringUnit": { "state": "translated", "value": "Limpar client" } },
+        "ru": { "stringUnit": { "state": "translated", "value": "Очистить client" } },
+        "sv": { "stringUnit": { "state": "translated", "value": "Rensa client" } },
+        "tr": { "stringUnit": { "state": "translated", "value": "Client temizle" } }
+      }
+    },
+    "timerecord_input_client_placeholder": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": { "stringUnit": { "state": "translated", "value": "Client auswählen" } },
+        "da": { "stringUnit": { "state": "translated", "value": "Vælg client" } },
+        "de": { "stringUnit": { "state": "translated", "value": "Client wählen" } },
+        "en": { "stringUnit": { "state": "translated", "value": "Select client" } },
+        "es": { "stringUnit": { "state": "translated", "value": "Seleccionar client" } },
+        "fi": { "stringUnit": { "state": "translated", "value": "Valitse client" } },
+        "fr": { "stringUnit": { "state": "translated", "value": "Sélectionner un client" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "Client を選択" } },
+        "la": { "stringUnit": { "state": "translated", "value": "Client eligere" } },
+        "nb": { "stringUnit": { "state": "translated", "value": "Velg client" } },
+        "nl": { "stringUnit": { "state": "translated", "value": "Client kiezen" } },
+        "pl": { "stringUnit": { "state": "translated", "value": "Wybierz client" } },
+        "pt": { "stringUnit": { "state": "translated", "value": "Selecionar client" } },
+        "ru": { "stringUnit": { "state": "translated", "value": "Выбрать client" } },
+        "sv": { "stringUnit": { "state": "translated", "value": "Välj client" } },
+        "tr": { "stringUnit": { "state": "translated", "value": "Client sec" } }
+      }
+    },
+    "timerecord_input_order": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": { "stringUnit": { "state": "translated", "value": "Auftrag" } },
+        "da": { "stringUnit": { "state": "translated", "value": "Ordre" } },
+        "de": { "stringUnit": { "state": "translated", "value": "Auftrag" } },
+        "en": { "stringUnit": { "state": "translated", "value": "Order" } },
+        "es": { "stringUnit": { "state": "translated", "value": "Pedido" } },
+        "fi": { "stringUnit": { "state": "translated", "value": "Tilaus" } },
+        "fr": { "stringUnit": { "state": "translated", "value": "Commande" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "オーダー" } },
+        "la": { "stringUnit": { "state": "translated", "value": "Ordo" } },
+        "nb": { "stringUnit": { "state": "translated", "value": "Ordre" } },
+        "nl": { "stringUnit": { "state": "translated", "value": "Order" } },
+        "pl": { "stringUnit": { "state": "translated", "value": "Zlecenie" } },
+        "pt": { "stringUnit": { "state": "translated", "value": "Pedido" } },
+        "ru": { "stringUnit": { "state": "translated", "value": "Заказ" } },
+        "sv": { "stringUnit": { "state": "translated", "value": "Order" } },
+        "tr": { "stringUnit": { "state": "translated", "value": "Siparis" } }
+      }
+    },
+    "timerecord_input_order_no_results": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": { "stringUnit": { "state": "translated", "value": "Keine Treffer" } },
+        "da": { "stringUnit": { "state": "translated", "value": "Ingen resultater" } },
+        "de": { "stringUnit": { "state": "translated", "value": "Keine Treffer" } },
+        "en": { "stringUnit": { "state": "translated", "value": "No results" } },
+        "es": { "stringUnit": { "state": "translated", "value": "Sin resultados" } },
+        "fi": { "stringUnit": { "state": "translated", "value": "Ei tuloksia" } },
+        "fr": { "stringUnit": { "state": "translated", "value": "Aucun résultat" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "結果なし" } },
+        "la": { "stringUnit": { "state": "translated", "value": "Nulla inventa" } },
+        "nb": { "stringUnit": { "state": "translated", "value": "Ingen treff" } },
+        "nl": { "stringUnit": { "state": "translated", "value": "Geen resultaten" } },
+        "pl": { "stringUnit": { "state": "translated", "value": "Brak wyników" } },
+        "pt": { "stringUnit": { "state": "translated", "value": "Sem resultados" } },
+        "ru": { "stringUnit": { "state": "translated", "value": "Нет результатов" } },
+        "sv": { "stringUnit": { "state": "translated", "value": "Inga resultat" } },
+        "tr": { "stringUnit": { "state": "translated", "value": "Sonuc yok" } }
+      }
+    },
+    "timerecord_input_order_search_disabled": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": { "stringUnit": { "state": "translated", "value": "Zuerst Client wählen..." } },
+        "da": { "stringUnit": { "state": "translated", "value": "Vælg først client..." } },
+        "de": { "stringUnit": { "state": "translated", "value": "Zuerst Client wählen..." } },
+        "en": { "stringUnit": { "state": "translated", "value": "Select a client first..." } },
+        "es": { "stringUnit": { "state": "translated", "value": "Primero selecciona un client..." } },
+        "fi": { "stringUnit": { "state": "translated", "value": "Valitse ensin client..." } },
+        "fr": { "stringUnit": { "state": "translated", "value": "Sélectionnez d'abord un client..." } },
+        "ja": { "stringUnit": { "state": "translated", "value": "先に Client を選択..." } },
+        "la": { "stringUnit": { "state": "translated", "value": "Primum client eligere..." } },
+        "nb": { "stringUnit": { "state": "translated", "value": "Velg først client..." } },
+        "nl": { "stringUnit": { "state": "translated", "value": "Kies eerst een client..." } },
+        "pl": { "stringUnit": { "state": "translated", "value": "Najpierw wybierz client..." } },
+        "pt": { "stringUnit": { "state": "translated", "value": "Selecione um client primeiro..." } },
+        "ru": { "stringUnit": { "state": "translated", "value": "Сначала выберите client..." } },
+        "sv": { "stringUnit": { "state": "translated", "value": "Välj client först..." } },
+        "tr": { "stringUnit": { "state": "translated", "value": "Once client sec..." } }
+      }
+    },
+    "timerecord_input_order_search_placeholder": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": { "stringUnit": { "state": "translated", "value": "Auftrag suchen..." } },
+        "da": { "stringUnit": { "state": "translated", "value": "Søg ordre..." } },
+        "de": { "stringUnit": { "state": "translated", "value": "Auftrag suchen..." } },
+        "en": { "stringUnit": { "state": "translated", "value": "Search order..." } },
+        "es": { "stringUnit": { "state": "translated", "value": "Buscar pedido..." } },
+        "fi": { "stringUnit": { "state": "translated", "value": "Etsi tilaus..." } },
+        "fr": { "stringUnit": { "state": "translated", "value": "Rechercher une commande..." } },
+        "ja": { "stringUnit": { "state": "translated", "value": "オーダーを検索..." } },
+        "la": { "stringUnit": { "state": "translated", "value": "Ordinem quaerere..." } },
+        "nb": { "stringUnit": { "state": "translated", "value": "Søk ordre..." } },
+        "nl": { "stringUnit": { "state": "translated", "value": "Order zoeken..." } },
+        "pl": { "stringUnit": { "state": "translated", "value": "Szukaj zlecenia..." } },
+        "pt": { "stringUnit": { "state": "translated", "value": "Pesquisar pedido..." } },
+        "ru": { "stringUnit": { "state": "translated", "value": "Поиск заказа..." } },
+        "sv": { "stringUnit": { "state": "translated", "value": "Sök order..." } },
+        "tr": { "stringUnit": { "state": "translated", "value": "Siparis ara..." } }
+      }
+    },
+    "timerecord_input_start_time": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": { "stringUnit": { "state": "translated", "value": "وقت البدء" } },
+        "da": { "stringUnit": { "state": "translated", "value": "Starttid" } },
+        "de": { "stringUnit": { "state": "translated", "value": "Startzeit" } },
+        "en": { "stringUnit": { "state": "translated", "value": "Start time" } },
+        "es": { "stringUnit": { "state": "translated", "value": "Hora de inicio" } },
+        "fi": { "stringUnit": { "state": "translated", "value": "Aloitusaika" } },
+        "fr": { "stringUnit": { "state": "translated", "value": "Heure de début" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "開始時刻" } },
+        "la": { "stringUnit": { "state": "translated", "value": "Tempus initii" } },
+        "nb": { "stringUnit": { "state": "translated", "value": "Starttid" } },
+        "nl": { "stringUnit": { "state": "translated", "value": "Starttijd" } },
+        "pl": { "stringUnit": { "state": "translated", "value": "Godzina rozpoczęcia" } },
+        "pt": { "stringUnit": { "state": "translated", "value": "Hora de início" } },
+        "ru": { "stringUnit": { "state": "translated", "value": "Время начала" } },
+        "sv": { "stringUnit": { "state": "translated", "value": "Starttid" } },
+        "tr": { "stringUnit": { "state": "translated", "value": "Baslangic saati" } }
+      }
+    },
+    "timerecord_input_unknown_value": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": { "stringUnit": { "state": "translated", "value": "Unbekannt" } },
+        "da": { "stringUnit": { "state": "translated", "value": "Ukendt" } },
+        "de": { "stringUnit": { "state": "translated", "value": "Unbekannt" } },
+        "en": { "stringUnit": { "state": "translated", "value": "Unknown" } },
+        "es": { "stringUnit": { "state": "translated", "value": "Desconocido" } },
+        "fi": { "stringUnit": { "state": "translated", "value": "Tuntematon" } },
+        "fr": { "stringUnit": { "state": "translated", "value": "Inconnu" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "不明" } },
+        "la": { "stringUnit": { "state": "translated", "value": "Ignotus" } },
+        "nb": { "stringUnit": { "state": "translated", "value": "Ukjent" } },
+        "nl": { "stringUnit": { "state": "translated", "value": "Onbekend" } },
+        "pl": { "stringUnit": { "state": "translated", "value": "Nieznane" } },
+        "pt": { "stringUnit": { "state": "translated", "value": "Desconhecido" } },
+        "ru": { "stringUnit": { "state": "translated", "value": "Неизвестно" } },
+        "sv": { "stringUnit": { "state": "translated", "value": "Okänd" } },
+        "tr": { "stringUnit": { "state": "translated", "value": "Bilinmiyor" } }
+      }
+    }
+  },
+  "version": "1.0"
+}

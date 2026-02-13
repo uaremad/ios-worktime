@@ -1,0 +1,15 @@
+{
+  "originHash" : "fff420ef6d258516d9d8ca509da708f3beda738dd194a6275bfc27399fe7e3e9",
+  "pins" : [
+    {
+      "identity" : "snapshotkit",
+      "kind" : "remoteSourceControl",
+      "location" : "git@github.com:lunij/SnapshotKit",
+      "state" : {
+        "revision" : "2cae5f2d5f082efaa32685148d0a38afc9fd610b",
+        "version" : "0.1.0"
+      }
+    }
+  ],
+  "version" : 3
+}

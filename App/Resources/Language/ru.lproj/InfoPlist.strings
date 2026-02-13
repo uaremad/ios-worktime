@@ -1,0 +1,14 @@
+/* Localized versions of Info.plist keys */
+
+"CFBundleDisplayName" = "Давление";
+"CFBundleName" = "Давление";
+
+/* Usage Descriptions */
+"NSPhotoLibraryUsageDescription" = "Приложение может сохранять экспортированные графики в виде изображений в вашу фототеку.";
+"NSPhotoLibraryAddUsageDescription" = "Приложение сохраняет экспортированные изображения графиков в вашу фототеку.";
+"NSCameraUsageDescription" = "Некоторые функции приложения требуют доступа к камере вашего устройства для сканирования документов.";
+"NSContactsUsageDescription" = "Приложение может запросить доступ к вашим контактам для оптимизации связи и упрощения выбора получателей.";
+"NSHealthShareUsageDescription" = "Приложение использует HealthKit для чтения показателей артериального давления и пульса.";
+"NSHealthUpdateUsageDescription" = "Приложение использует HealthKit для сохранения показателей артериального давления и пульса.";
+
+"NSLocalNetworkUsageDescription" = "Приложение использует локальную сеть для прямой синхронизации данных между вашим iPhone и Mac.";
